@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(to bottom right, rgba(252, 217, 223, 0.5), rgba(191, 249, 249, 0.588));
+}
+
+.container {
+    border-radius: 18px;
+    margin: 30px auto;
+    width: 480px;
+    height: 660px;
+    border: 1px solid rgba(125, 124, 124, 0.597);
+    box-shadow: 0 0 15px 5px pink;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin: 20px 100px;
+    width: 280px;
+}
+
+.title {
+    text-align: center;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    color: rgb(50, 50, 71);
+    font-size: 28px;
+}
+
+
+.input-box {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+.input-box:hover {
+    border: none;
+    box-shadow: 0 0 10px 2px pink;
+}
+
+.input-name {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+}
+
+.btn {
+    margin-left: 100px;
+    background-color: white;
+    margin-top: 10px;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    border: none;
+    color: pink;
+    box-shadow: 0 0 10px 2px pink;
+}
+
+.after-submit {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+    color: gray;
+}
